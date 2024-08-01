@@ -1,0 +1,93 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.6;
+  font-family: 'Space Mono', monospace;
+  background-color: #F4F4F9;
+  color: #333;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  color: #1E90FF;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 60px 30px;
+  max-width: 1200px;
+  background-color: #FFFFFF;
+  color: #333;
+}
+
+strong {
+  font-size: 16px;
+  color: #1E90FF;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.usersContentItem {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.usersContent {
+  background-color: #FAFAFA;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list {
+  padding: 10px;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+  color: #666;
+}
+
+.list li {
+  padding: 5px 0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
